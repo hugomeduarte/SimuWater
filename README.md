@@ -47,7 +47,7 @@ Este caso é semelhante a [1].
 1. O utilizador preenche um questionário;
 2. Com o questionário submetido, irá ser calculado o consumo individual de água por dia do utilizador;
 3. O utilizador ficará a saber o seu consumo individual de água por dia e se está dentro dos valores recomendados pela ONU;
-4. Se no passo 3 o consumo do utizador não estiver dentro dos valores recomendados pela ONU, serão apresentadas dicas face à má racionalização de água;
+4. Se no passo 3 o consumo do utilizador não estiver dentro dos valores recomendados pela ONU, serão apresentadas dicas face à má racionalização de água;
 5. Por fim, o utilizador pode retroceder e alterar algumas das opções do questionário.
 
 **Pós-condições:**
