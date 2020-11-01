@@ -8,7 +8,7 @@
 
 ## Enquadramento
 
-
+O simulador de consumo de água permite ao utilizador saber quantos litros de água utiliza por dia. Desta maneira, o utilizador poderá gerenciar os seus consumos de forma mais eficiente seja para fins económicos ou ambientais.
 
 
 (substituir todo o texto pelo vosso) \
