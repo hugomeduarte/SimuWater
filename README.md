@@ -14,18 +14,8 @@ Desta maneira, o utilizador poderá gerenciar os seus consumos de forma mais efi
 
 Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estaçoes de tratamento de água.
 
-De facto, esta plataforma já existe na G1 (Globo) [1], e já é usada por milhares de pessoas e até hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador.
+De facto, esta plataforma já existe na G1 (Globo) [1], já sendo usada por milhares de pessoas e até hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador baseado num portefólio que permite acompanhar os consumos de água do utilizador até à data, comparando-os com os valores recomendados pela ONU.
 
-
-
-(substituir todo o texto pelo vosso) \
-Descrição do contexto do projeto numa perspetiva de produto, i.e. sem descrições técnicas de implementação. \
-Explicar o que é o projeto/produto \
-Descrever o contexto em que o projeto está inserido:
-- Referências a sites ou documentos que deem mais informação sobre o contexto
-- Referências a outros produtos similares
-- Ambas os tipos de referências deve ser introduzidas nesta secção indicando um número que corresponde a uma entrada na secção de “Referências”
-Explicar porque o projeto é importante nesse contexto
 
 ## Casos de utilização:
 
