@@ -15,6 +15,7 @@ Desta maneira, o utilizador poderá gerenciar os seus consumos de forma mais efi
 Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estaçoes de tratamento de água.
 
 De facto, esta plataforma já existe na G1 (Globo) [1], já sendo usada por milhares de pessoas e até hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador baseado num portefólio que permite acompanhar os consumos de água do utilizador até à data, comparando-os com os valores recomendados pela ONU.
+Este simulador conta também com a demonstração de dicas onde os utilizadores podem ficar informados acerca de potenciais poupanças dada a má a racionalização de água.
 
 
 ## Casos de utilização:
