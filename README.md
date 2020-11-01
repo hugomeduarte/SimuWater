@@ -55,7 +55,7 @@ Este caso é semelhante a [1].
 
 ### Portefólio do utilizador
 **Descrição:** \
-Neste caso, o utilizador pode ver todas as suas simulacões feitas anteriormente.
+Neste caso, o utilizador pode ver todas as suas simulações feitas anteriormente.
 
 **Pré-condições:**
 - Estar logado.
