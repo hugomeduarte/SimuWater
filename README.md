@@ -36,15 +36,16 @@ Neste caso, o utilizador vai realizar o login da sua conta para puder acessar ao
 - Se os dados de acesso estiverem incorretos, aparece um warning para o utilizador saber que os dados que colocou estão incorretos.
 - Se os dados de acesso forem de uma conta que não está registrada, aparece um warning para o utilizador saber que não existe essa conta.
 
-### Simulação do consumo de água
+### Simulador de consumo de água
 **Descrição:** \
-Neste caso, o utilizador vai preencher as opções e depois vai ser calculado o seu consumo individual de água por dia. O objetivo é tentar ajustá-lo ao recomendado pela ONU
+Neste caso, o utilizador vai preencher um questionário para depois ser calculado o seu consumo individual de água por dia. O objetivo é tentar ajustá-lo ao recomendado pela ONU.
+Este caso é semelhante a [1].
 
 **Pré-condições:**
 - Estar logado.
 
 **Passo a passo:**
-1. O utilizador vai preencher as opções.
+1. O utilizador vai preencher o questionário.
 2. As opções são guardadas.
 3. Com as opções guardadas vai ser calculado o consumo invididual de água por dia.
 3. Vai aparecer o consumo individual de água por dia do utilizador e dirá se está dentro dos parâmetros que a ONY recomenda.
@@ -65,7 +66,7 @@ Neste caso, o utilizador pode ver todas as suas simulacoes feitas anteriormente.
 2. Aprece todas as simulacoes
 
 **Pós-condições:**
-- NA.
+- NA
 
 ## Referências:
 
