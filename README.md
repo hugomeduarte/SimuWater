@@ -70,4 +70,5 @@ Neste caso, o utilizador pode ver todas as suas simulacoes feitas anteriormente.
 ## Referências:
 
 [1] G1. Acedido em: 31, 10, 2020, em: https://especiais.g1.globo.com/economia/crise-da-agua/calculadora-do-consumo/
+
 [2] UOL Acedido em: 31, 10, 2020, em: https://noticias.uol.com.br/cotidiano/ultimas-noticias/2015/02/05/e-possivel-viver-com-110-litros-de-agua-por-dia-veja-como-seria-a-sua-vida.htm 
