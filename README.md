@@ -38,32 +38,33 @@ Neste caso, o utilizador vai realizar o login da sua conta para puder acessar ao
 
 ### Simulador de consumo de água
 **Descrição:** \
-Neste caso, o utilizador vai preencher um questionário para depois ser calculado o seu consumo individual de água por dia. O objetivo é tentar ajustá-lo ao recomendado pela ONU.
+Neste caso, o utilizador vai preencher um questionário para depois ser calculado o seu consumo individual de água por dia. O objetivo é tentar ajustá-lo ao recomendado pela ONU.                 
 Este caso é semelhante a [1].
 
 **Pré-condições:**
 - Estar logado.
 
 **Passo a passo:**
-1. O utilizador vai preencher o questionário.
-2. As opções são guardadas.
-3. Com as opções guardadas vai ser calculado o consumo invididual de água por dia.
-3. Vai aparecer o consumo individual de água por dia do utilizador e dirá se está dentro dos parâmetros que a ONY recomenda.
+1. O utilizador preenche um questionário;
+2. Com o questionário submetido, irá ser calculado o consumo individual de água por dia do utilizador;
+3. O utilizador ficará a saber o seu consumo individual de água por dia e se está nos valores recomendados pela ONU;
+4. Se no passo 3 o consumo do utizador não estiver nos valores recomendados pela ONU, são apresentadas dicas dada a má a racionalização de água;
+5. Por fim, o utilizador pode voltar atrás e mudar alguma das opções do questionário ou tentar de novo.
 
 **Pós-condições:**
-- Depois do passo 3, o utilizador pode voltar atrás e mudar alguma das opções ou tentar de novo.
-- O valor cal
+- Todos os dados submetidos no questionário juntamente com o seu consumo de água são guardados na base de dados e depois apresentados no portefólio do utilizador.
 
 ### Portefólio do utilizador
 **Descrição:** \
-Neste caso, o utilizador pode ver todas as suas simulacoes feitas anteriormente.
+Neste caso, o utilizador pode ver todas as suas simulacões feitas anteriormente.
 
 **Pré-condições:**
 - Estar logado.
 
 **Passo a passo:**
-1. O utilizador clica num menu para ver o seu portefolio.
-2. Aprece todas as simulacoes
+1. O utilizador clica no menú e depois na opção portefólio;
+2. Aparece todas as simulações feitas pelo utilizador, indicando o dia em que foi feito.
+3. Ao clicar no dia da simulação, pode-se observar todos os dados submetidos no questionário juntamente com o seu consumo de água daquele dia.
 
 **Pós-condições:**
 - NA
