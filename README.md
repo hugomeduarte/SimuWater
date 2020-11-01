@@ -35,6 +35,22 @@ Neste caso, o utilizador vai realizar o login da sua conta para puder acessar ao
 - Se os dados de acesso estiverem incorretos, aparece um warning para o utilizador saber que os dados que colocou estão incorretos.
 - Se os dados de acesso forem de uma conta que não está registrada, aparece um warning para o utilizador saber que não existe essa conta.
 
+### Simulação do consumo de água
+**Descrição:** \
+Neste caso, o utilizador vai responder a um questionário
+
+**Pré-condições:**
+- Antes de realizar o login, deverá registrar uma conta antes.
+
+**Passo a passo:**
+1. O utilizador vai preencher a ficha de login. Caso este ainda não tenha uma conta, deverá clicar no botão de registrar e prencher a ficha do mesmo.
+2. O pedido é guardado.
+3. Se o pedido guardado corresponder com o que está registado na base de dados, o utilizador é redirecionado para o simulador.
+
+**Pós-condições:**
+- Se os dados de acesso estiverem corretos, o utilizador é redirecionado para o simulador.
+- Se os dados de acesso estiverem incorretos, aparece um warning para o utilizador saber que os dados que colocou estão incorretos.
+- Se os dados de acesso forem de uma conta que não está registrada, aparece um warning para o utilizador saber que não existe essa conta.
 
 ## Referências:
 (substituir todo o texto pelo vosso) \
