@@ -26,18 +26,17 @@ Cada caso de uso tem um nome, uma descrição, pré-condições (pode-se omitir 
 Neste caso, o utilizador vai realizar o login da sua conta para puder acessar ao seu simulador de consumo de água. Se ainda não tiver uma conta, pode-se registrar para depois ter acesso ao mesmo.
 
 **Pré-condições:**
-- O caso de utilização pode ter pré-condições (ex: estar logado, o pedido não estar pago, etc). 
-- Podem escrever NA se não existirem pré-condições
 - Antes de realizar o login, deverá registrar uma conta antes.
 
-
 **Passo a passo:**
-1. Um caso de utilização consiste na descrição passo a passo (itemizado) de como um utilizador consegue fazer algo na aplicação. Indicando as ações relevantes e a informação relevante que é mostrada ao utilizador.
-1. O passo a passo pode começar num dos passos de um caso de utilização anterior (ex: no passo 3 do caso de utilização Y …) 
+1. O utilizador vai preencher a ficha de login. Caso este ainda não tenha uma conta, deverá clicar no botão de registrar e prencher a ficha do mesmo.
+2. O pedido é guardado.
+3. Se o pedido guardado corresponder com o que está registado na base de dados, o utilizador é redirecionado para o simulador.
 
 **Pós-condições:**
 - Se os dados de acesso estiverem corretos, o utilizador é redirecionado para o simulador.
-- Se os dados de acesso estiverem incorretos
+- Se os dados de acesso estiverem incorretos, aparece um warning para o utilizador saber que os dados que colocou estão incorretos.
+- Se os dados de acesso forem de uma conta que não está registrada, aparece um warning para o utilizador saber que não existe essa conta.
 
 
 ## Referências:
