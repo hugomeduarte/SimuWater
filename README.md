@@ -21,24 +21,23 @@ Este simulador conta também com a demonstração de dicas onde os utilizadores 
 
 ### Core
 **Descrição:** \
-Neste caso, o utilizador vai realizar o login da sua conta para puder acessar ao seu simulador de consumo de água. Se ainda não tiver uma conta, pode-se registrar para depois ter acesso ao mesmo.
+Neste caso, o utilizador vai realizar o login da sua conta para puder aceder ao seu simulador. Caso ainda não tenha uma conta, pode registar-se.
 
 **Pré-condições:**
-- Antes de realizar o login, deverá registrar uma conta antes.
+- Antes de realizar o login, deverá registar uma conta primeiro.
 
 **Passo a passo:**
-1. O utilizador vai preencher a ficha de login. Caso este ainda não tenha uma conta, deverá clicar no botão de registrar e prencher a ficha do mesmo.
-2. O pedido é guardado.
+1. O utilizador vai preencher a ficha de login ou a ficha de registo caso este ainda não possua uma conta;
+2. O pedido é guardado;
 3. Se o pedido guardado corresponder com o que está registado na base de dados, o utilizador é redirecionado para o simulador.
 
 **Pós-condições:**
-- Se os dados de acesso estiverem corretos, o utilizador é redirecionado para o simulador.
-- Se os dados de acesso estiverem incorretos, aparece um warning para o utilizador saber que os dados que colocou estão incorretos.
-- Se os dados de acesso forem de uma conta que não está registrada, aparece um warning para o utilizador saber que não existe essa conta.
+- Se os dados de acesso estiverem incorretos, aparecerá um aviso para saber que os dados que colocou estão incorretos.
+- Se os dados de acesso forem de uma conta que não está registada, o utilizador será avisado de que não existe essa conta.
 
 ### Simulador de consumo de água
 **Descrição:** \
-Neste caso, o utilizador vai preencher um questionário para depois ser calculado o seu consumo individual de água por dia. O objetivo é tentar ajustá-lo ao recomendado pela ONU.                 
+Neste caso, o utilizador vai preencher um questionário para depois ser calculado o seu consumo individual de água por dia. O objetivo é tentar ajustar o seu consumo ao recomendado pela ONU.                 
 Este caso é semelhante a [1].
 
 **Pré-condições:**
@@ -47,12 +46,12 @@ Este caso é semelhante a [1].
 **Passo a passo:**
 1. O utilizador preenche um questionário;
 2. Com o questionário submetido, irá ser calculado o consumo individual de água por dia do utilizador;
-3. O utilizador ficará a saber o seu consumo individual de água por dia e se está nos valores recomendados pela ONU;
-4. Se no passo 3 o consumo do utizador não estiver nos valores recomendados pela ONU, são apresentadas dicas dada a má a racionalização de água;
-5. Por fim, o utilizador pode voltar atrás e mudar alguma das opções do questionário ou tentar de novo.
+3. O utilizador ficará a saber o seu consumo individual de água por dia e se está dentro dos valores recomendados pela ONU;
+4. Se no passo 3 o consumo do utizador não estiver dentro dos valores recomendados pela ONU, serão apresentadas dicas face à má racionalização de água;
+5. Por fim, o utilizador pode retroceder e alterar algumas das opções do questionário.
 
 **Pós-condições:**
-- Todos os dados submetidos no questionário juntamente com o seu consumo de água são guardados na base de dados e depois apresentados no portefólio do utilizador.
+- Todos os dados submetidos no questionário conjuntamente com o seu consumo de água, são guardados na base de dados e mais tarde apresentados no portefólio do utilizador.
 
 ### Portefólio do utilizador
 **Descrição:** \
@@ -63,8 +62,8 @@ Neste caso, o utilizador pode ver todas as suas simulacões feitas anteriormente
 
 **Passo a passo:**
 1. O utilizador clica no menú e depois na opção portefólio;
-2. Aparece todas as simulações feitas pelo utilizador, indicando o dia em que foi feito.
-3. Ao clicar no dia da simulação, pode-se observar todos os dados submetidos no questionário juntamente com o seu consumo de água daquele dia.
+2. Aparecerão todas as simulações feitas pelo utilizador, indicando o dia em que foi feito.
+3. Ao clicar no dia da simulação, poder-se-ão observar todos os dados submetidos no questionário conjuntamente com o seu consumo de água daquele dia.
 
 **Pós-condições:**
 - NA
