@@ -7,6 +7,10 @@
 |  20190843  | Hugo Duarte |
 
 ## Enquadramento
+
+
+
+
 (substituir todo o texto pelo vosso) \
 Descrição do contexto do projeto numa perspetiva de produto, i.e. sem descrições técnicas de implementação. \
 Explicar o que é o projeto/produto \
@@ -47,6 +51,21 @@ Neste caso, o utilizador vai preencher as opções e depois vai ser calculado o 
 2. As opções são guardadas.
 3. Com as opções guardadas vai ser calculado o consumo invididual de água por dia.
 3. Vai aparecer o consumo individual de água por dia do utilizador e dirá se está dentro dos parâmetros que a ONY recomenda.
+
+**Pós-condições:**
+- Depois do passo 3, o utilizador pode voltar atrás e mudar alguma das opções ou tentar de novo.
+- O valor cal
+
+### Portefólio do utilizador
+**Descrição:** \
+Neste caso, o utilizador pode ver todas as suas simulacoes feitas anteriormente.
+
+**Pré-condições:**
+- Estar logado.
+
+**Passo a passo:**
+1. O utilizador clica num menu para ver o seu portefolio.
+2. Aprece todas as simulacoes
 
 **Pós-condições:**
 - NA.
