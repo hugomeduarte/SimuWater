@@ -1,4 +1,4 @@
-# Calculadora de consumo de água
+# Calculadora do consumo de água
 
 ## Autores:
 
