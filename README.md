@@ -1,4 +1,4 @@
-# Calculadora do consumo de água
+# Simulador de consumo de água
 
 ## Autores:
 
