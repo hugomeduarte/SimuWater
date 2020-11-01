@@ -21,21 +21,23 @@ Explicar porque o projeto é importante nesse contexto
 Definir 3 casos de utilização (o primeiro deve ser core) cada um com o template mostrado em baixo. \
 Cada caso de uso tem um nome, uma descrição, pré-condições (pode-se omitir se vazio), passsos e pós-condições (pode-se omitir se vazio)
 
-### nome do caso de uso
+### Core
 **Descrição:** \
-Texto descritivo
+Neste caso, o utilizador vai realizar o login da sua conta para puder acessar ao seu simulador de consumo de água. Se ainda não tiver uma conta, pode-se registrar para depois ter acesso ao mesmo.
 
 **Pré-condições:**
 - O caso de utilização pode ter pré-condições (ex: estar logado, o pedido não estar pago, etc). 
-- Podem escrever NA se não existirem pré-condições 
+- Podem escrever NA se não existirem pré-condições
+- Antes de realizar o login, deverá registrar uma conta antes.
+
 
 **Passo a passo:**
 1. Um caso de utilização consiste na descrição passo a passo (itemizado) de como um utilizador consegue fazer algo na aplicação. Indicando as ações relevantes e a informação relevante que é mostrada ao utilizador.
 1. O passo a passo pode começar num dos passos de um caso de utilização anterior (ex: no passo 3 do caso de utilização Y …) 
 
 **Pós-condições:**
-- Indica as alterações que decorreram das ações (ex: o pedido é guardado)
-- Podem escrever NA se não existirem pós-condições.
+- Se os dados de acesso estiverem corretos, o utilizador é redirecionado para o simulador.
+- Se os dados de acesso estiverem incorretos
 
 
 ## Referências:
