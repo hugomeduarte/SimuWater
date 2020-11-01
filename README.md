@@ -8,7 +8,8 @@
 
 ## Enquadramento
 
-O projeto "Simulador de consumo de água" permite ao utilizador saber quantos litros de água utiliza por dia. Desta maneira, o utilizador poderá gerenciar os seus consumos de forma mais eficiente em relação a fins económicos e ambientais. A eficiência é caracterizada pelo combate ao desperdício.
+O projeto "Simulador de consumo de água" permite ao utilizador saber quantos litros de água utiliza por dia.\ 
+Desta maneira, o utilizador poderá gerenciar os seus consumos de forma mais eficiente em relação a fins económicos e ambientais. A eficiência é caracterizada pelo combate ao desperdício.\
 Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estaçoes de tratamento de água.
 
 Produto similar: [1] https://especiais.g1.globo.com/economia/crise-da-agua/calculadora-do-consumo/
