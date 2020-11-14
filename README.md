@@ -5,21 +5,20 @@
 | Número | Nome |
 |--------|------|
 |  20190843  | Hugo Duarte |
+|  50034822  | Frederico Ramalho |
 
 ## Enquadramento
 
-Atualmente, os casos de contaminação de água podem ocorrer de várias maneiras, destacando-se a poluição por esgoto, metais pesados, agrotóxicos e fertilizantes.
-As estações de tratamento que irão descontaminar estas águas são pouco eficientes e dispendiosas porque requerem um grande consumo energético. 
-Tirando as energias renováveis que apenas ocupam 21% dos consumos de energia em Portugal, as outras todas são poluentes.
-Logo não teria sentido estar a despoluir o mar se depois estaríamos a poluir em outro lado para manter as centrais de tratamentos de águas ativas o que requerem um grande consumo energético. 
-
+Atualmente, a contaminação da água pode ocorrer de várias maneiras. Entre elas destacam-se a poluição por esgoto, metais pesados, agrotóxicos e fertilizantes.
+As estações de tratamento de água são responsáveis por purificar estas águas tornando-as próprias para consumo e assim utilizá-la para abastecer uma determinada população. Porém, estas são pouco eficientes e dispendiosas porque requerem um grande consumo energético. 
+Tirando as energias renováveis que apenas ocupam 21% dos consumos de energia total em Portugal, as outras todas são poluentes, logo, estaríamos a despoluir o mar para depois poluimos outro sítio para manter estas centrais de tratamento de águas ativas, o que não faria muito sentido.
 
 Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estações de tratamento de água visto que, irá ser tratada uma menor quantidade da mesma.
 
 O projeto "Simulador de consumo de água" permite ao utilizador saber quantos litros de água utiliza por dia.
 Desta maneira, o utilizador poderá gerenciar os seus consumos de forma mais eficiente em relação a fins económicos e ambientais. A eficiência é caracterizada pelo combate ao desperdício.
 
-De facto, esta plataforma já existe na G1 (Globo) [1], já sendo usada por milhares de pessoas e até hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador baseado num portefólio que permite acompanhar os consumos de água do utilizador até à data, comparando-os com os valores recomendados pela ONU [2].
+Esta plataforma já existe na G1 (Globo) [1], já sendo usada por milhares de pessoas e até hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador baseado num portefólio que permite acompanhar os consumos de água do utilizador até à data, comparando-os com os valores recomendados pela ONU [2].
 Este simulador conta também com a demonstração de dicas onde os utilizadores podem ficar informados acerca de potenciais poupanças dada a má a racionalização de água.
 
 
