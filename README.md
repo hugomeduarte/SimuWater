@@ -7,6 +7,13 @@
 |  20190843  | Hugo Duarte |
 
 ## Enquadramento
+
+Atualmente, os casos de contaminação de água podem ocorrer de várias maneiras, destacando-se a poluição por esgoto, metais pesados, agrotóxicos e fertilizantes.
+As estações de tratamento que irão descontaminar estas águas são pouco eficientes e dispendiosas porque requerem um grande consumo energético. 
+Tirando as energias renováveis que apenas ocupam 21% dos consumos de energia em Portugal, as outras todas são poluentes.
+Logo não teria sentido estar a despoluir o mar se depois estaríamos a poluir em outro lado para manter as centrais de tratamentos de águas ativas o que requerem um grande consumo energético. 
+
+
 Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estações de tratamento de água visto que, irá ser tratada uma menor quantidade da mesma.
 
 O projeto "Simulador de consumo de água" permite ao utilizador saber quantos litros de água utiliza por dia.
