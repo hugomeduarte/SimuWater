@@ -11,7 +11,7 @@
 
 Atualmente, a poluição e a escassez de água estão no topo das preocupações ambientais. \
 A primeira pode ocorrer de várias maneiras: poluição por esgoto, metais pesados, agrotóxicos, fertilizantes, entre outras. As estações de tratamento de água são responsáveis por purificar estas águas tornando-as próprias para consumo e assim utilizá-la para abastecer uma determinada população. Porém, estas são pouco eficientes e dispendiosas pois requerem um grande consumo energético. \
-Tirando as energias renováveis que ocupam apenas 21% dos consumos de energia total em Portugal, as restantes são poluentes. Conclusão, para termos águas próprias para consumo, temos que poluir o nosso planeta.  \
+Tirando as energias renováveis que ocupam apenas 21% dos consumos de energia total em Portugal [3], as restantes são poluentes. Conclusão, para termos águas próprias para consumo, temos que poluir o nosso planeta.  \
 O segundo tópico deve-se ao consumo do mesmo ser superior à capacidade de renovação cíclica da água. As causas para o aumento do consumo de água são várias: crescimento populacional, desenvolvimento econômico e aumento da produção em economias periféricas ou emergentes, aumento das atividades produtivas, elevação do consumo de produtos que utilizam muita água na sua produção, entre outras.
 
 Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estações de tratamento de água visto que, irá ser tratada uma menor quantidade da mesma.
@@ -19,7 +19,7 @@ Este projeto enquadra-se no contexto da produção e consumos sustentáveis (obj
 O projeto "Simulador de consumo de água" permite ao utilizador saber quantos litros de água utiliza por dia.
 Desta maneira, o utilizador poderá gerenciar os seus consumos de forma mais eficiente em relação a fins económicos e ambientais. A eficiência é caracterizada pelo combate ao desperdício.
 
-Esta plataforma já existe na G1 (Globo) [1], já sendo usada por milhares de pessoas e até hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador baseado num portefólio que permite acompanhar os consumos de água do utilizador até à data, comparando-os com os valores recomendados pela ONU [2].
+Esta plataforma já existe na G1 (Globo) [1], sendo usada por milhares de pessoas e até hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador baseado num portefólio que permite acompanhar os consumos de água do utilizador até à data, comparando-os com os valores recomendados pela ONU [2].
 Este simulador conta também com a demonstração de dicas onde os utilizadores podem ficar informados acerca de potenciais poupanças dada a má a racionalização de água.
 
 
@@ -79,3 +79,5 @@ Neste caso, o utilizador pode ver todas as suas simulações feitas anteriorment
 [1] G1. Acedido em: 31, 10, 2020, em: https://especiais.g1.globo.com/economia/crise-da-agua/calculadora-do-consumo/
 
 [2] UOL Acedido em: 31, 10, 2020, em: https://noticias.uol.com.br/cotidiano/ultimas-noticias/2015/02/05/e-possivel-viver-com-110-litros-de-agua-por-dia-veja-como-seria-a-sua-vida.htm 
+
+[3] REA Acedido em: 14, 11, 2020, em: https://rea.apambiente.pt/content/produção-e-consumo-de-energia
