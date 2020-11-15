@@ -10,8 +10,7 @@
 ## Enquadramento
 
 Atualmente, a escassez e poluiçao da água estão no topo das preocupações ambientais.
-A escassez de água deve-se ao consumo do mesmo ser superior à capacidade de renovação cíclica da água. As causas para o aumento do consumo de água são várias: crescimento populacional, desenvolvimento econômico e aumento da produção em economias periféricas ou emergentes, aumento das atividades produtivas, elevação do consumo de produtos que utilizam muita água na sua produção, entre outras.
-
+A escassez de água deve-se ao consumo do mesmo ser superior à capacidade de renovação cíclica da água. As causas para o aumento do consumo de água são várias: crescimento populacional, desenvolvimento econômico e aumento da produção em economias periféricas ou emergentes, aumento das atividades produtivas, elevação do consumo de produtos que utilizam muita água na sua produção, entre outras. \
 A poluição da água pode ocorrer de várias maneiras. Entre elas destacam-se a poluição por esgoto, metais pesados, agrotóxicos e fertilizantes.
 As estações de tratamento de água são responsáveis por purificar estas águas tornando-as próprias para consumo e assim utilizá-la para abastecer uma determinada população. Porém, estas são pouco eficientes e dispendiosas porque requerem um grande consumo energético. 
 Tirando as energias renováveis que apenas ocupam 21% dos consumos de energia total em Portugal, as outras todas são poluentes, logo, estamos a poluir ao mesmo tempo que a água é tratada.
