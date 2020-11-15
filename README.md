@@ -10,9 +10,9 @@
 ## Enquadramento
 
 Atualmente, a poluição e a escassez de água estão no topo das preocupações ambientais. \
-A primeira pode ocorrer de várias maneiras: poluição por esgoto, metais pesados, agrotóxicos, fertilizantes, entre outras. As estações de tratamento de água são responsáveis por purificar estas águas tornando-as próprias para consumo e assim utilizá-la para abastecer uma determinada população. Porém, estas são pouco eficientes e dispendiosas pois requerem um grande consumo energético. \
-Tirando as energias renováveis que ocupam apenas 21% dos consumos de energia total em Portugal [3], as restantes são poluentes. Conclusão, para termos águas próprias para consumo, temos que poluir o nosso planeta.  \
-O segundo tópico deve-se ao consumo do mesmo ser superior à capacidade de renovação cíclica da água. As causas para o aumento do consumo de água são várias: crescimento populacional, desenvolvimento econômico e aumento da produção em economias periféricas ou emergentes, aumento das atividades produtivas, elevação do consumo de produtos que utilizam muita água na sua produção, entre outras.
+A água poluída que provém dos esgotos, metais pesados, agrotóxicos, fertilizantes, entre outros, é tratada nas estações de tratamento de água que são responsáveis por purificar as mesmas, tornando-as próprias para consumo e assim utilizá-las para abastecer a população.
+Estas estações de tratamento são pouco eficientes e dispendiosas pois requerem um grande consumo energético e, em Portugal, excetuando as energias renováveis que ocupam apenas 21% dos consumos de energia total [3], as restantes são poluentes. Todo o processo de tratamento de água está a poluir o nosso planeta cada vez mais.
+A escassez de água deve-se ao consumo da mesma ser superior à capacidade de renovação cíclica da água. As causas para o aumento do consumo de água são várias, desde o crescimento populacional, aumento do consumo de produtos que utilizam muita água na sua produção, aumento das atividades produtivas, entre outros.
 
 Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estações de tratamento de água visto que, irá ser tratada uma menor quantidade da mesma.
 
