@@ -12,7 +12,7 @@
 Atualmente, a poluição e a escassez de água estão no topo das preocupações ambientais. \
 A água poluída que provém dos esgotos, metais pesados, agrotóxicos, fertilizantes, entre outros, é tratada nas estações de tratamento de água que são responsáveis por purificar as mesmas, tornando-as próprias para consumo e assim utilizá-las para abastecer a população.
 Estas estações de tratamento são pouco eficientes e dispendiosas pois requerem um grande consumo energético e, em Portugal, excetuando as energias renováveis que ocupam apenas 21% dos consumos de energia total [3], as restantes são poluentes. Todo o processo de tratamento de água está a poluir o nosso planeta cada vez mais.
-A escassez de água deve-se ao consumo da mesma ser superior à capacidade de renovação cíclica da água. As causas para o aumento do consumo de água são várias, desde o crescimento populacional, aumento do consumo de produtos que utilizam muita água na sua produção, aumento das atividades produtivas, entre outros.
+A escassez de água deve-se ao consumo da mesma ser superior à sua capacidade de renovação cíclica. As causas para o aumento do consumo de água são várias, desde o crescimento populacional, aumento do consumo de produtos que utilizam muita água na sua produção e aumento das atividades produtivas.
 
 Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estações de tratamento de água visto que, irá ser tratada uma menor quantidade da mesma.
 
