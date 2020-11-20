@@ -9,18 +9,15 @@
 
 ## Enquadramento
 
-Atualmente, a poluição e a escassez de água estão no topo das preocupações ambientais. \
-A água poluída que provém dos esgotos, metais pesados, agrotóxicos, fertilizantes, entre outros, é tratada nas estações de tratamento de água que são responsáveis por purificar as mesmas, tornando-as próprias para consumo e assim utilizá-las para abastecer a população.
-Estas estações de tratamento são pouco eficientes e dispendiosas pois requerem um grande consumo energético e, em Portugal, excetuando as energias renováveis que ocupam apenas 21% dos consumos de energia total [3], as restantes são poluentes. Todo o processo de tratamento de água está a poluir o nosso planeta cada vez mais.
-A escassez de água deve-se ao consumo da mesma ser superior à sua capacidade de renovação cíclica. As causas para o aumento do consumo de água são várias, desde o crescimento populacional, aumento do consumo de produtos que utilizam muita água na sua produção e aumento das atividades produtivas.
+Atualmente, a escassez de água e a sua poluição estão no topo das preocupações ambientais. Por um lado, o consumo de água é superior à sua capacidade de renovação cíclica, devido o crescimento populacional, ao aumento do consumo de produtos que utilizam muita água na sua produção (como a carne) e ao aumento das atividades produtivas. Por outro lado, a água poluída que circula nos esgotos está saturada de metais pesados, agroquímicos, medicamentos, drogas e fertilizantes, entre outros. Chegando às estações de tratamento, esta água é purificada e tornada inócua para o meio ambiente onde é libertada, sendo no entanto imprópria para consumo e abastecimento da população. Estas estações de tratamento são pouco eficientes e dispendiosas pois requerem um grande consumo energético, que também é, por sua vez, poluente -  em Portugal as energias renováveis ocupam apenas 21% do consumo total de energia [3]. Todo o processo de consumo e tratamento de água está a sobrecarregar o nosso planeta cada vez mais. 
 
-Este projeto enquadra-se no contexto da produção e consumos sustentáveis (objetivo 12 da ONU), uma vez que um consumo mais eficiente irá ajudar a crise de falta de água e diminuir a poluição provocada pelas estações de tratamento de água visto que, irá ser tratada uma menor quantidade da mesma.
+Tendo em conta esta situação, a ONU definiu como essencial uma produção e consumos sustentáveis (objetivo 12 dos ODS da ONU), que apenas se poderão atingir como um consumo mais eficiente. A eficiência é caracterizada pelo combate ao desperdício. O consumo eficiente poderá reverter a crise de falta de água e diminuir a poluição provocada pelas estações de tratamento de água, visto que irá ser tratada uma menor quantidade da mesma.
 
-O projeto "Simulador de consumo de água" permite ao utilizador saber quantos litros de água utiliza por dia.
-Desta maneira, o utilizador poderá gerir os seus consumos de forma mais eficiente em relação a fins económicos e ambientais. A eficiência é caracterizada pelo combate ao desperdício.
 
-Esta plataforma já existe na G1 (Globo) [1], sendo usada por milhares de pessoas e até hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador baseado num portefólio que permite acompanhar os consumos de água do utilizador até à data, comparando-os com os valores recomendados pela ONU [2].
-Este simulador conta também com a demonstração de dicas onde os utilizadores podem ficar informados acerca de potenciais poupanças dada a má a racionalização de água.
+Este projeto enquadra-se no contexto da produção e consumos sustentáveis. O projeto "Simulador de consumo de água" permite ao utilizador saber quantos litros de água utiliza por dia. Desta maneira, o utilizador poderá gerir os seus consumos de forma mais eficiente em relação a fins económicos e ambientais. 
+
+
+Um projecto deste tipo já existe na plataforma G1 (Globo) [1], usada por milhares de pessoas e até por hospitais. A diferença desta plataforma para o nosso projeto seria a maior interatividade com o utilizador, baseada num portefólio que permite acompanhar os consumos de água do utilizador até à data, comparando-os com os valores recomendados pela ONU [2]. Este simulador conta também com a divulgação de dicas para os utilizadores, revelando potenciais poupanças e melhorando a racionalização de água.
 
 
 ## Casos de utilização:
