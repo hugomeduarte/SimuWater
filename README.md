@@ -1,4 +1,4 @@
-# Simulador de consumo de água
+# Simulação de consumo de água
 
 ## Autores:
 
@@ -24,27 +24,26 @@ Um projecto deste tipo já existe na plataforma G1 (Globo) [1], usada por milhar
 
 ### Core
 **Descrição:** \
-Neste caso, o utilizador vai realizar o login da sua conta para puder aceder ao seu simulador. Caso ainda não tenha uma conta, pode registar-se.
+Neste caso, o utilizador vai fazer registo das suas residências para que a simulação seja o mais credível possível com base no tipo de residência que o utilizador deseja fazer a simulação.
 
 **Pré-condições:**
-- Antes de realizar o login, deverá registar uma conta primeiro.
+- Estar logado.
 
 **Passo a passo:**
-1. O utilizador vai preencher a ficha de login ou a ficha de registo caso este ainda não possua uma conta;
-2. O pedido é guardado;
-3. Se o pedido guardado corresponder com o que está registado na base de dados, o utilizador é redirecionado para o simulador.
+1. O utilizador vai preencher a ficha de registo de residência, indicando a sua morada, número e tipo de residência.
+2. O registo é guardado;
+3. Para aceder à simulação o utilizador terá que escolher para que residência quer fazer.
 
 **Pós-condições:**
-- Se os dados de acesso estiverem incorretos, aparecerá um aviso para saber que os dados que colocou estão incorretos.
-- Se os dados de acesso forem de uma conta que não está registada, o utilizador será avisado de que não existe essa conta.
+- NA
 
-### Simulador de consumo de água
+### Simulação de consumo de água
 **Descrição:** \
 Neste caso, o utilizador vai preencher um questionário para depois ser calculado o seu consumo individual de água por dia. O objetivo é tentar ajustar o seu consumo ao recomendado pela ONU.                 
 Este caso é semelhante a [1].
 
 **Pré-condições:**
-- Estar logado.
+- Estar logado e ter registo de pelo menos uma residência.
 
 **Passo a passo:**
 1. O utilizador preenche um questionário;
