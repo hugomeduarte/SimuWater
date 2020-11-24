@@ -24,7 +24,7 @@ Um projecto deste tipo já existe na plataforma G1 (Globo) [1], usada por milhar
 
 ### Core
 **Descrição:** \
-Neste caso, o utilizador vai poder fazer registo das suas residências. Desta maneira, o resultado obtido das simulações será mais aproximado da realidade.
+Neste caso, o utilizador vai poder fazer registo das suas residências. Desta maneira, o resultado obtido das simulações será o mais aproximado da realidade.
 
 **Pré-condições:**
 - Estar logado.
