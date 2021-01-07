@@ -5,7 +5,7 @@ create table utilizador (util_id int not null auto_increment,
 					 util_pass varchar(45) not null, #paswword do utilizador
 					 primary key (util_id));
                      
- create table redidencia (res_id int not null auto_increment,
+ create table residencia (res_id int not null auto_increment,
 						res_morada varchar(45) not null, #morada da residencia
                         res_numero integer not null, #numero da residencia
                         res_tipo varchar(45) not null, #tipo de residencia
