@@ -1,5 +1,6 @@
-use simuwater;
+create database simuwater;
 
+use simuwater;
 
 
 
