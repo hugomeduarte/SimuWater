@@ -3,19 +3,12 @@ use simuwater;
 select util_nome('Frederico Ramalho') from utilizador;  #selecionar o utilizador com o nome 'Frederico Ramalho'
 
 
-select sysdate()  #mostrar a data atual a partir tabela resultados
-from resultados;
-
-
 select * from resultados
-where year(resul_data)='2021';   #mostrar resultados obtidos no ano de 2021
+where month(resul_data)='5';   #mostrar resultados obtidos no mês de Maio
 
 
-select  UPPER(util_nome)  #mostrar o nome do utilizador no topo da lista
+select  UPPER(util_nome)  #mostrar o nome dos utilizadores em maiuscula
 from utilizador;
-
-
-
 
 
 select count(*) , res_numero from residencia group by res_numero 
