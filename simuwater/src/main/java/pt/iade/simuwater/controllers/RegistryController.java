@@ -11,34 +11,40 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import pt.iade.simuwater.models.User;
+import pt.iade.simuwater.models.Registry;
 import pt.iade.simuwater.models.exceptions.NotFoundException;
-import pt.iade.simuwater.models.repositories.UserRepository;
+import pt.iade.simuwater.models.repositories.RegistryRepository;
+
 
 @RestController
-@RequestMapping(path = "/api/users")
+@RequestMapping(path = "/api/registries")
 
-public class UserController {
+public class RegistryController {
     private Logger logger = LoggerFactory.getLogger(UserController.class);
     @Autowired
-    private UserRepository userRepository;
+    private RegistryRepository registryRepository;
 
     @GetMapping(path = "", produces = MediaType.APPLICATION_JSON_VALUE)
-    public Iterable<User> getUsers() {
-        logger.info("Sending all users");
-        return userRepository.findAll();
+    public Iterable<Registry> getRegistries() {
+        logger.info("Sending all registries");
+        return registryRepository.findAll();
     }
 
-    @GetMapping(path = "{name}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public User getUser(@PathVariable String name) {
-        logger.info("Sending user with name " + name);
-        Optional<User> _user=userRepository.findByName(name);
-        return _user.get();
+    /*@GetMapping(path = "{user}/{residence}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public Registry findResidenceFromUser(@PathVariable int user,
+    @PathVariable int residence) {
+        Optional<Registry> _registry=registryRepository.findResidenceFromUser(user,residence);
+        return _registry.get();
     }
-
-  
-
+*/
     
-  
-    
+
+
+
+
+
+
+
+
+
 }

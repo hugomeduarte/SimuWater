@@ -29,6 +29,12 @@ public class Registry {
     @JsonIgnoreProperties("registries")
     private Residence residence;
 
+    @Id @Column(name ="atividades_aid")
+    @JsonIgnore private int activitiesId;
+    @ManyToOne @MapsId("activitiesId") @JoinColumn(name="atividades_aid")
+    @JsonIgnoreProperties("registries")
+    private Activities activities;
+
     public Registry(){}
 
     public int getId() {
@@ -50,6 +56,17 @@ public class Registry {
     public Residence getResidence() {
         return residence;
     }
+
+    public int getActivitiesId() {
+        return activitiesId;
+    }
+
+    public Activities getActivities() {
+        return activities;
+    }
+
+
+    
 
 
 
