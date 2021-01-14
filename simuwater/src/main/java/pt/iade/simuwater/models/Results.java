@@ -9,12 +9,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.MapsId;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name="resultados")
@@ -28,12 +26,10 @@ public class Results {
     @Column(name="resul_conta") private String conta;
     @Column(name="resul_parametros_onu") private int parametros_onu;
 
-    /*@OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "atividades_aid")
-    private Activities activities;*/
-
-    @ManyToOne @JoinColumn(name = "residencia_reid")
-    private Residence residence;
+    @JsonIgnoreProperties("results")
+    private Activities activities;
 
 
 public Results(){}
@@ -68,13 +64,9 @@ public int getParametros_onu() {
 }
 
 
-public Residence getResidence() {
-    return residence;
-}
-
-/*public Activities getActivities() {
+public Activities getActivities() {
     return activities;
-}*/
+}
 
 
 

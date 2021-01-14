@@ -30,8 +30,9 @@ public class Activities {
     @JsonIgnoreProperties("activities")
     private List<Registry> registries;
 
-    /*@OneToOne(mappedBy = "activities", cascade = CascadeType.ALL, orphanRemoval = true)
-    private Results results;*/
+    @OneToOne(mappedBy = "activities", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonIgnoreProperties("activities")
+    private Results results;
 
     public Activities(){}
 
@@ -65,9 +66,9 @@ public class Activities {
     }
     
 
-    /*public Results getResults() {
+    public Results getResults() {
         return results;
-    }*/
+    }
 
 
    

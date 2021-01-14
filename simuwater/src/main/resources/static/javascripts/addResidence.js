@@ -10,34 +10,77 @@ window.onload = async function() {
             html+= "<option value="+user.id+">"+user.name+
                 "</option>";
         }
-        document.getElementById("user").innerHTML = html;
+        document.getElementById("users").innerHTML = html;
     } catch (err) {
         console.log(err);
         // mensagem de erro para o utilizador      
     }
-}
 
+    try {
+        let residences = await $.ajax({
+            url: "/api/residences",
+            method: "get",
+            dataType: "json"
+        });
+        let html="";
+        for (let residence of residences) {
+            html+= "<option value="+residence.id+">"+residence.adress+
+                "</option>";
+        }
+        document.getElementById("residences").innerHTML = html;
+    } catch (err) {
+        console.log(err);
+        // mensagem de erro para o utilizador      
+    }
+
+    /*try {
+        let activitiess = await $.ajax({
+            url: "/api/activities",
+            method: "get",
+            dataType: "json"
+        });
+        let html="";
+        for (let activities of activitiess) {
+            html+= "<option value="+activities.id+">"+activities.id+
+                "</option>";
+        }
+        document.getElementById("activities").innerHTML = html;
+    } catch (err) {
+        console.log(err);
+        // mensagem de erro para o utilizador      
+    }
+    */
+
+}
 
 async function addResidence() {
     try {
-        let residence = {
-            adress: document.getElementById("adress").value,
-            user: { id: parseInt(document.getElementById("user").value) }
+        let activities = {
+            banho: document.getElementById("banho").value,
+            loica: document.getElementById("loica").value,
+            roupa: document.getElementById("roupa").value,
+            higiene: document.getElementById("higiene").value,
+            cozinhados: document.getElementById("cozinhados").value,
         }
-        console.log(JSON.stringify(residence));
+        console.log(JSON.stringify(activities));
         let result = await $.ajax({
-            url: "/api/residences",
+            url: "/api/activities",
             method: "post",
             dataType: "json",
-            data:JSON.stringify(residence),
+            data:JSON.stringify(activities),
             contentType: "application/json"
         });
         console.log(JSON.stringify(result));
-        // Change to album page
-        sessionStorage.setItem("albumId",result.id);
-        window.location = "album.html";
+
+    // Change to index page
+    sessionStorage.setItem("registo",result);
+    window.location = "index.html";
+
     } catch(err) {
         console.log(err);
         // mensagem para o utilizador
     }
+
+
+
 }

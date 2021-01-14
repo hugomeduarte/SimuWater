@@ -2,7 +2,6 @@ package pt.iade.simuwater.models;
 
 import java.util.List;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -22,12 +21,11 @@ public class Residence {
     @Column(name="res_morada") private String adress;
     @Column(name="res_numero") private String number;
     @Column(name="res_tipo") private String residencetype;
+    @Column(name="res_escalao") private String escalao;
 
     @OneToMany @JoinColumn(name="residencia_reid")
+    @JsonIgnoreProperties("residences")
     private List<Registry> registries;
-    
-    @OneToMany(mappedBy = "residence", cascade = CascadeType.ALL)
-    private List<Results> results;
 
     
     public Residence(){}
@@ -52,9 +50,7 @@ public class Residence {
         return registries;
     }
 
-    public List<Results> getResults() {
-        return results;
-    }
+
 
 
 

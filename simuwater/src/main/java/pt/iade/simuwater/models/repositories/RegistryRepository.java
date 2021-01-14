@@ -6,4 +6,6 @@ import pt.iade.simuwater.models.Registry;
 
 public interface RegistryRepository extends CrudRepository<Registry, Integer> {
 
+ 
+
 }
