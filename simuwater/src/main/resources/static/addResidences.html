@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> SimuWater </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="javascripts/addResidences.js"></script>
+    </head>
+<body>
+
+<h1>SimuWater</h1>
+
+<h3 id="username"></h3>
+<hr>
+Morada: <input type="text" id="morada"></br>
+Número: <input type="number" id="numero"></br> 
+
+    Tipo de residência: <input type="radio" id="Apartamento" name="radio"> Apartamento
+    <input type="radio" id="Moradia" name="radio"> Moradia
+    <br>
+Escalão:
+<select id="escalao">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+  </select>
+<br><br>
+
+<input type="button" value="Adicionar" onclick="addResidence()">
+
+</body>
+</html>

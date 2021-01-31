@@ -23,7 +23,8 @@ public class User {
     @OneToMany @JoinColumn(name="utilizador_uid")
     @JsonIgnoreProperties("user")
     private List<Registry> registries;
-
+    @JsonIgnoreProperties("registries")
+    
     public User(){}
 
     public int getId() {
@@ -34,10 +35,6 @@ public class User {
         return name;
     }
 
-    /*public String getPassword() {
-        return password;
-    }
-    */
     public List<Registry> getRegistries() {
         return registries;
     }

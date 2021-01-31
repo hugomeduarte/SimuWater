@@ -1,39 +1,36 @@
 package pt.iade.simuwater.models;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.IdClass;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.MapsId;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity @Table(name="registo")
-@IdClass(RegistryId.class)
 public class Registry {
+    @Id @GeneratedValue (strategy= GenerationType.IDENTITY) 
     @Column(name="reg_id") private int id;
 
-    @Id @Column(name ="utilizador_uid")
-    @JsonIgnore private int userId;
     @ManyToOne @MapsId("userId") @JoinColumn(name="utilizador_uid")
     @JsonIgnoreProperties("registries")
     private User user;
     
-    @Id @Column(name ="residencia_reid")
-    @JsonIgnore private int residenceId;
     @ManyToOne @MapsId("residenceId") @JoinColumn(name ="residencia_reid")
     @JsonIgnoreProperties("registries")
     private Residence residence;
 
-    @Id @Column(name ="atividades_aid")
-    @JsonIgnore private int activitiesId;
-    @ManyToOne @MapsId("activitiesId") @JoinColumn(name="atividades_aid")
+    @OneToMany @JoinColumn(name="registo_reg_id")
     @JsonIgnoreProperties("registries")
-    private Activities activities;
+    private List<Consumption> consumptions;
 
     public Registry(){}
 
@@ -41,29 +38,18 @@ public class Registry {
         return id;
     }
 
-    public int getUserId() {
-        return userId;
-    }
-
     public User getUser() {
         return user;
-    }
-
-    public int getResidenceId() {
-        return residenceId;
     }
 
     public Residence getResidence() {
         return residence;
     }
 
-    public int getActivitiesId() {
-        return activitiesId;
+    public List<Consumption> getConsumptions() {
+        return consumptions;
     }
 
-    public Activities getActivities() {
-        return activities;
-    }
 
 
     

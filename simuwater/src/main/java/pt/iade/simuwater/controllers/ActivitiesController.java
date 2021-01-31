@@ -39,7 +39,7 @@ public class ActivitiesController {
 
     @PostMapping(path = "", produces= MediaType.APPLICATION_JSON_VALUE)
     public Activities saveActivity(@RequestBody Activities newActivity) {
-        logger.info("Saving activities with id: "+newActivity.getId());
+        logger.info("Saving activities with name: "+newActivity.getName());
         Activities activities = activitiesRepository.save(newActivity);
         return activities;
     }

@@ -26,6 +26,7 @@ public class Residence {
     @OneToMany @JoinColumn(name="residencia_reid")
     @JsonIgnoreProperties("residences")
     private List<Registry> registries;
+    @JsonIgnoreProperties("registries")
 
     
     public Residence(){}
@@ -49,6 +50,11 @@ public class Residence {
     public List<Registry> getRegistries() {
         return registries;
     }
+
+    public String getEscalao() {
+        return escalao;
+    }
+
 
 
 

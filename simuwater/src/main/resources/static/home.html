@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> SimuWater </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="javascripts/home.js"></script>
+        
+    </head>
+<body>
+
+<h1>SimuWater</h1>
+
+<h3 id="username"></h3>
+<a href="residences.html">As suas residências</a>
+<a href="consumptions.html">Os seus consumos</a>
+
+<hr>
+<h2>Adicionar consumo</h2>
+<h3>Residência: <select id="residences"></select></h3>
+<h3>Atividade: <select id="atividades"></select></h3>
+Tempo:<input type="number" step="0.1" id="time"></br></br>
+
+<input type="button" value="Adicionar" onclick="addActivity()">
+<p><small>* As atividades autoclismo, lavar as mãos e lavar os dentes são por utilizações</small></p>
+<p id="resultado"></p>
+
+</body>
+</html>
