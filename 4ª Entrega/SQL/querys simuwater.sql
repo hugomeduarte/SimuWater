@@ -73,6 +73,23 @@ inner join utilizador
 on ( utilizador_uid = util_id)
 group by util_genero;
 
+
+##Consumos e dicas se estiverem fora dos critérios (Por atividade e nome de utilizador)
+select distinct util_nome as Nome, ativ_nome as Atividade, cons_tempo as Tempo,
+if((cons_tempo*ativ_taxa)>dica_criterio,
+dica_texto,"Dentro") as Critério
+from dicas
+inner join atividades
+on (dicas.atividades_aid = atividades.ativ_id)
+inner join consumos
+on (atividades.ativ_id = consumos.atividades_aid)
+inner join registo
+on (consumos.registo_reg_id = registo.reg_id)
+inner join utilizador
+on (registo.utilizador_uid = utilizador.util_id)
+where ativ_nome="Banho" and util_nome="Frederico Ramalho";
+
+
 # Stored procedures
 
 call calcularConsumo("Banho",6,@result);
@@ -80,4 +97,3 @@ select @result;
 
 call calcularConsumodoDia(3,@result);
 SELECT @result;
-    
